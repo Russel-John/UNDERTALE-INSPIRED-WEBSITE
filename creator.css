@@ -1,0 +1,149 @@
+
+body{
+    background-color: rgb(53, 53, 53);
+    font-family: 'VT323', monospace;
+    text-align: center;
+    background-color: black;
+    margin: 0px;
+    background-image:url(https://i.pinimg.com/originals/9a/2a/a3/9a2aa3ccba5c3bce83e2e3f0a607c147.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow-x: hidden;
+}
+#tlemsg{
+    text-transform: uppercase;
+    font-size: 48px;
+    font-weight: normal;
+}
+#titlescreen{
+    margin-top: 10px;
+    margin-bottom: 200px;
+}
+.container
+{
+    width: 600px;
+    height: 267px;
+    margin:auto;
+    background:transparent;
+    color: #ffffff;
+    border: 2px solid rgba(255, 255, 255, .5);
+    backdrop-filter: blur(20px);
+    padding: 25px;
+    border-radius: 15px;
+    font-family: 'VT323', monospace;
+    font-size: larger;
+    letter-spacing: 3px;
+    font-weight: bold;
+    text-align: center;
+}
+h1{
+    color: #ffffff;
+}
+p{ 
+    color: #BBBBBB;
+
+}
+#pic{
+    border-radius: 15px;
+    border: black;
+    
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+
+iframe{
+    margin: none;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    height: 12%;
+}
+.logo{
+    width: 40px;
+    cursor: pointer;
+}
+nav{
+    flex: 1;
+    text-align: right;
+    margin-bottom: 10px;
+}
+.contin{
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+nav ul a{
+    display: inline-block;
+    font-family:'VT323', monospace;
+    list-style: none;
+    margin-left: 60px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 30px;
+}
+nav ul a:hover{
+    transition: 1s;
+    cursor: pointer;
+    color: #929292;
+}
+.album{
+    align-items: center;
+    font-family:'VT323', monospace;
+    font-size: larger;
+    letter-spacing: 2px;
+}
+#inalbum{
+    display: inline-block;
+    flex-basis: 20%;
+}
+.pictures{
+    width: 250px;
+    height: 250px;
+    margin: 50px;
+    border-radius: 10%;
+}
+.pictures:hover{
+    transition: 1.3s;
+    scale: 1.8;
+}
+
+.headsec{
+    letter-spacing: 5px;
+    font-size: xx-large;
+    text-align: center;
+}
+.aboutsec{
+    text-align: justify;
+    margin-left: 90px;
+    margin-right: 90px;
+    font-size: 35px;
+    text-decoration: none;
+}
+.mapsection{
+    text-align: center;
+
+}
+.aboutcontain{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+#myPfp{
+    border-radius: 10px;
+}
+
+
+.mapsection {
+    text-align: center;
+}

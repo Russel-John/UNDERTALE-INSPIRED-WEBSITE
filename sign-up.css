@@ -1,0 +1,125 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'VT323', monospace;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+
+}
+
+.flex-r ,.flex-c {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.flex-c{
+    flex-direction: column;
+}
+.flex-r{
+    flex-direction: row;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    padding: 20px 10px;
+    background-image: url(https://moewalls.com/wp-content/uploads/2023/07/the-ruins-undertale-pixel-thumb.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.login-text{
+    background-color: #1B1C1E;
+    max-width: 400px;
+    min-height: 500px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    outline:2px solid white;
+}
+
+.img{
+    margin-bottom: 20px;
+}
+
+.login-text h1{
+    font-size: 25px;
+    color: #ffffff;
+}
+.login-text p{
+    font-size: 15px;
+    color: #ffffff;
+}
+
+form{
+    align-items: flex-start !important;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.input-box{
+    margin: 10px 0px;
+    width: 100%;
+}
+
+.label{
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 3px;
+}
+
+.input{
+    background-color: #F6F6F6;
+    padding: 0px 5px;
+    border: 2px solid rgba(216, 216, 216, 1);
+    border-radius: 10px;
+    overflow: hidden;
+    justify-content: flex-start;
+}
+
+input{
+    border: none;
+    outline: none;
+    padding: 10px 5px;
+    background-color: #F6F6F6;
+    flex: 1;
+}
+.input i{
+    color:rgba(0, 0, 0, 0.4);
+}
+
+
+
+.btn{
+    width: 100%;
+    color: #ffffff;
+    border-radius: 30px;
+    padding: 15px 140px;
+    background: linear-gradient(122.33deg, #815d98 30.62%, #533e62 100%);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    transition: all 0.3s linear;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    transform: translateY(-2px);
+}
+.extra-line{
+    font-size: 15px;
+    font-weight: 600;
+    color: #ffffff;
+}
+.extra-line a{
+    color: #815d98;
+}

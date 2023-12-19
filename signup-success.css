@@ -1,0 +1,10 @@
+body{
+    background-color: black;
+    font-family: 'VT323', monospace;
+    color: #fff;
+    text-align: center;
+}
+.container{
+    margin-top: 10%;
+    font-size: 200%;
+}
