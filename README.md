@@ -1,4 +1,4 @@
 # UNDERTALE INSPIRED WEBSITE
-First Website Done in fullfillment for webdev11
+First website done in fullfillment for webdev11
 
 
